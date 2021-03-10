@@ -16,10 +16,10 @@ spec:
     type: pd-standard
   storageClass: "csi-gce-pd"
   services:
-    - Backup
-    - Monitoring
-    - Logging
-    - ComplianceDaemon
+  - Backup
+  - Monitoring
+  - Logging
+  - ComplianceDaemon
   sourceCidrRanges: [0.0.0.0/0]
   imageContainsCDB: true
   minMemoryForDBContainer: 4.0Gi

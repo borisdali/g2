@@ -5,11 +5,11 @@ metadata:
 spec:
   appProperties:
     envs:
-      - name: "dev"
-      - name: "test"
-        includeInReleasePipeline: true
-        releasePipelinePreviousEnvironmentDelay: 168h
-      - name: "prod"
+    - name: "dev"
+    - name: "test"
+      includeInReleasePipeline: true
+      releasePipelinePreviousEnvironmentDelay: 168h
+    - name: "prod"
     tier: Development
     growthProfile: "Transactional"
     upgradePolicy: "Manual"
