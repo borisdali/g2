@@ -1,0 +1,9 @@
+apiVersion: graybox.anthosapis.com/v1alpha1
+kind: InstanceSet
+metadata:
+  name: system-generated-ignore
+spec:
+  appProperties:
+    envs:
+    - name: prod
+
