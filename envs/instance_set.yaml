@@ -6,4 +6,6 @@ spec:
   appProperties:
     envs:
     - name: prod
+      # includeInReleasePipeline: true
+      # releasePipelinePreviousEnvironmentDelay: 168h
 

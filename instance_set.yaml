@@ -4,12 +4,6 @@ metadata:
   name: system-generated-ignore
 spec:
   appProperties:
-    envs:
-    - name: "dev"
-    - name: "test"
-      includeInReleasePipeline: true
-      releasePipelinePreviousEnvironmentDelay: 168h
-    - name: "prod"
     tier: Development
     growthProfile: "Transactional"
     upgradePolicy: "Manual"
