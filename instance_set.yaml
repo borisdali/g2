@@ -4,6 +4,9 @@ metadata:
   name: system-generated-ignore
 spec:
   appProperties:
+    envs:
+    - name: "dev"
+    - name: "prod"
     tier: Development
     growthProfile: "Transactional"
     upgradePolicy: "Manual"
