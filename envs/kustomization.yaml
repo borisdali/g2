@@ -1,5 +1,13 @@
 bases:
 - ../../../AppName
+commonLabels:
+  app: appName
+  env: envName
+commonAnnotations:
+  "graybox.anthosapis.com/dry-repo-hash": commitHash
+  "graybox.anthosapis.com/edge-name": edgeName
+nameSuffix: "-appName-envName"
+namespace: namespaceFleet
 patches:
 - path: instance.yaml
   target:
