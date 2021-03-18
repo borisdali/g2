@@ -15,6 +15,3 @@ patches:
 - path: instance_topology.yaml
   target:
     kind: InstanceTopology
-- path: instance_set.yaml
-  target:
-    kind: InstanceSet
