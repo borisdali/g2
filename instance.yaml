@@ -16,19 +16,20 @@ spec:
     type: pd-standard
   storageClass: "csi-gce-pd"
   services:
-  - Backup
-  - Monitoring
-  - Logging
-  - ComplianceDaemon
+    Backup: true
+    Monitoring: true
+    Logging: true
+    Patching: true
+    ComplianceDaemon: true
   sourceCidrRanges: [0.0.0.0/0]
   imageContainsCDB: true
   minMemoryForDBContainer: 4.0Gi
+  maintenanceTimeRange: [ "2021-01-15T15:30:30Z", "2121-02-15T15:45:30Z" ]
   parameters:
     # parallel_servers_target:dynamic  disk_asynch_io:static
     parameterMap:
       parallel_servers_target: "15"
       disk_asynch_io: "true"
-    restartTimeRange: ["2021-01-15T15:30:30Z", "2121-02-15T15:45:30Z"]
 # Uncomment this section to trigger a restore.
 #  restore:
 #    backupType: "Snapshot" #(or "Physical")
