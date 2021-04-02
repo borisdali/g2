@@ -3,9 +3,6 @@ bases:
 commonLabels:
   "graybox.anthosapis.com/app": appName
   "graybox.anthosapis.com/env": envName
-commonAnnotations:
-  "graybox.anthosapis.com/dry-repo-hash": commitHash
-  "graybox.anthosapis.com/edge-name": edgeName
 nameSuffix: "-appName-envName"
 namespace: namespaceFleet
 patches:
