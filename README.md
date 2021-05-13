@@ -11,4 +11,3 @@ across the organization for database fleet-wide consistency.
 `sqlctl pkg get REPO_URI[.git]/PKG_PATH[@VERSION] <local_dest_directory> [flags]`
 
 Details: https://googlecontainertools.github.io/kpt/reference/pkg/get/
-
