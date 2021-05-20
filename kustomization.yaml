@@ -1,4 +1,5 @@
 resources:
 - instance.yaml
 - instance_topology.yaml
+- database_pdb1.yaml
 

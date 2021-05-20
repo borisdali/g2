@@ -3,7 +3,6 @@ kind: InstanceTopology
 metadata:
   name: system-generated-ignore
 spec:
-  edgeInstanceName: graybox
+  edgeInstanceName: mydb
   edgeNamespace: db
   clusterName: graybox
-

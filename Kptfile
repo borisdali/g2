@@ -1,8 +1,8 @@
 apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
 metadata:
-  name: ora04
+  name: ora05
 packageMetadata:
   tags:
   - kpt.dev/app=graybox
-  shortDescription: Graybox ora04 kpt package
+  shortDescription: Graybox ora05 kpt package
