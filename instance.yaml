@@ -3,7 +3,7 @@ kind: Instance
 metadata:
   name: mydb
 spec:
-  type: Mimir
+  type: Oracle
   version: "12.2"
   edition: Enterprise
   dbDomain: "gke"
